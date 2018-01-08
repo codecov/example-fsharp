@@ -35,7 +35,7 @@ choco install xunit
 and execute the following in your solution's root,
 
 ```powershell
-OpenCover.Console.exe -register:user -target:"xunit.console.x86.exe" -targetargs:".\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll -noshadow" -filter:"+[CodecovExample.Tests*]* -[CodecovExample.TargetProject*]*" -output:".\MyProject_coverage.xml"
+OpenCover.Console.exe -register:user -target:"xunit.console.x86.exe" -targetargs:".\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll -noshadow" -filter:"+[CodecovExample.TargetProject*]* -[CodecovExample.Tests*]*" -output:".\CodecovExample-FSharp.xml"
 ```
 
 Then a coverage report will be generated.
@@ -65,7 +65,7 @@ choco install codecov
 and then run the following in PowerShell
 
 ```
-.\codecov -f "MyProject_coverage.xml" -t <your upload token>
+.\codecov -f "CodecovExample-FSharp.xml" -t <your upload token>
 ```
 
 the report will be uploaded.
@@ -77,7 +77,7 @@ In bash run the following to upload the report
 ```bash
 curl -s https://codecov.io/bash > codecov
 chmod +x codecov
-./codecov -f "MyProject_coverage.xml" -t <your upload token>
+./codecov -f "CodecovExample-FSharp.xml" -t <your upload token>
 ```
 
 ### Python
@@ -92,7 +92,7 @@ Next run the following in PowerShell
 
 ```
 pip install codecov
-.\codecov -f "MyProject_coverage.xml" -t <your upload token>
+.\codecov -f "CodecovExample-FSharp.xml" -t <your upload token>
 ```
 
 ### Continous Integration
@@ -114,8 +114,8 @@ build:
   verbosity: minimal
 
 test_script:
-- OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll -noshadow" -filter:"+[CodecovExample.Tests*]* -[CodecovExample.TargetProject*]*" -output:".\MyProject_coverage.xml"
-- codecov -f "MyProject_coverage.xml"
+- OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll -noshadow" -filter:"+[CodecovExample.TargetProject*]* -[CodecovExample.Tests*]*" -output:".\CodecovExample-FSharp.xml"
+- codecov -f "CodecovExample-FSharp.xml"
 ```
 
 #### Codecov-exe using NuGet
@@ -133,8 +133,8 @@ build:
   verbosity: minimal
 
 test_script:
-- .\packages\<ADD PATH>\OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll -noshadow" -filter:"+[CodecovExample.Tests*]* -[CodecovExample.TargetProject*]*" -output:".\MyProject_coverage.xml"
-- .\packages\<ADD PATH>\codecov.exe -f "MyProject_coverage.xml"
+- .\packages\<ADD PATH>\OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll -noshadow" -filter:"+[CodecovExample.TargetProject*]* -[CodecovExample.Tests*]*" -output:".\CodecovExample-FSharp.xml"
+- .\packages\<ADD PATH>\codecov.exe -f "CodecovExample-FSharp.xml"
 ```
 
 #### Python
@@ -151,10 +151,10 @@ build:
   verbosity: minimal
 
 test_script:
-- OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll -noshadow" -filter:"+[CodecovExample.Tests*]* -[CodecovExample.TargetProject*]*" -output:".\MyProject_coverage.xml"
+- OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll -noshadow" -filter:"+[CodecovExample.TargetProject*]* -[CodecovExample.Tests*]*" -output:".\CodecovExample-FSharp.xml"
 - "SET PATH=C:\\Python34;C:\\Python34\\Scripts;%PATH%"
 - pip install codecov
-- codecov -f "MyProject_coverage.xml"
+- codecov -f "CodecovExample-FSharp.xml"
 ```
 
 ## Fake

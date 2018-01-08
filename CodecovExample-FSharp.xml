@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="66.67" branchCoverage="66.67" maxCyclomaticComplexity="1" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="3" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="45-91-01-A5-B1-74-66-BD-38-39-86-0A-6F-9A-86-01-75-5E-0C-EB">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:55.6160102Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="38-3B-AE-5E-6E-F5-1C-18-19-FB-CD-20-ED-BC-15-92-D9-1A-98-A8">
+      <ModulePath>C:\ProgramData\chocolatey\bin\xunit.console.x86.exe</ModulePath>
+      <ModuleTime>2017-12-18T11:57:49.7056998Z</ModuleTime>
+      <ModuleName>xunit.console.x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-AF-39-ED-07-00-7F-DA-71-B4-3A-2C-F3-C1-2A-76-68-13-8C-EA">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:58.0116799Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FC-FE-E5-ED-6A-DC-B6-40-E2-18-8D-5A-DC-FD-FA-75-EF-A8-9E-9C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:58.3436462Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F6-ED-9A-80-E5-17-1A-1C-91-64-ED-0A-60-85-5B-F0-BA-B1-4B-7F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:55.6785346Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="20-C4-01-9B-E2-1E-9E-E3-3C-4A-52-77-E9-9B-48-5D-83-2E-A9-06">
+      <ModulePath>C:\ProgramData\chocolatey\lib\XUnit\tools\xunit\xunit.console.x86.exe</ModulePath>
+      <ModuleTime>2017-12-18T11:57:48.2067252Z</ModuleTime>
+      <ModuleName>xunit.console.x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B0-74-B1-8D-51-BC-0F-BE-6F-0A-E9-01-EB-0F-3D-B4-01-89-D9-28">
+      <ModulePath>C:\ProgramData\chocolatey\lib\XUnit\tools\xunit\xunit.runner.utility.desktop.dll</ModulePath>
+      <ModuleTime>2017-12-18T11:57:48.2172233Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-AF-39-ED-07-00-7F-DA-71-B4-3A-2C-F3-C1-2A-76-68-13-8C-EA">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:58.0116799Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FC-FE-E5-ED-6A-DC-B6-40-E2-18-8D-5A-DC-FD-FA-75-EF-A8-9E-9C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:58.3436462Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6B-86-54-62-96-7F-F5-FD-4B-8B-DA-7F-04-D1-BA-43-EC-82-F2-C5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:55.290835Z</ModuleTime>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4F-90-AA-7A-43-B2-44-98-7A-7A-12-FB-EF-4F-CE-E9-1A-F1-FC-8E">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:54.7283365Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="81-DE-41-E4-CF-35-79-0F-0A-D0-B6-43-FC-EB-6A-47-5F-D8-69-04">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:54.8220577Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0D-93-02-F5-BA-A6-97-B2-1E-7D-A1-81-8A-4F-5F-B9-97-BB-A9-BC">
+      <ModulePath>C:\ProgramData\chocolatey\lib\XUnit\tools\xunit\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-12-18T11:57:48.192727Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="83-B5-A5-3D-C5-EE-5B-11-96-A7-D4-EF-E5-B8-69-05-D9-8E-82-DC">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:52.2333576Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B0-74-B1-8D-51-BC-0F-BE-6F-0A-E9-01-EB-0F-3D-B4-01-89-D9-28">
+      <ModulePath>C:\Users\EQA49494\AppData\Local\Temp\4bd5bf39-7542-47df-aa8d-3b42f18242ec\4bd5bf39-7542-47df-aa8d-3b42f18242ec\assembly\dl3\f6b31abc\496b576c_f777d301\xunit.runner.utility.desktop.dll</ModulePath>
+      <ModuleTime>2018-01-08T19:37:48.4141128Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FC-FE-E5-ED-6A-DC-B6-40-E2-18-8D-5A-DC-FD-FA-75-EF-A8-9E-9C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:58.3436462Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-AF-39-ED-07-00-7F-DA-71-B4-3A-2C-F3-C1-2A-76-68-13-8C-EA">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:58.0116799Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B3-70-1C-5C-49-7A-71-F1-B8-32-97-F5-1E-5F-F3-52-E2-62-BA-1C">
+      <ModulePath>C:\GitWlasne\codecovold\CodecovExample\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll</ModulePath>
+      <ModuleTime>2018-01-08T19:11:58.829548Z</ModuleTime>
+      <ModuleName>CodecovExample.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-5F-31-2F-12-92-F2-45-05-D3-BD-CA-13-62-7D-F3-B8-10-E0-93">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:51.8373578Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="61-48-84-C2-D1-D5-99-D6-62-AF-99-DC-EE-36-8C-D2-C9-20-16-EB">
+      <ModulePath>C:\GitWlasne\codecovold\CodecovExample\test\CodecovExample.Tests\bin\Debug\xunit.execution.desktop.dll</ModulePath>
+      <ModuleTime>2017-10-27T03:34:44Z</ModuleTime>
+      <ModuleName>xunit.execution.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\GitWlasne\codecovold\CodecovExample\test\CodecovExample.Tests\bin\Debug\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2016-08-09T06:37:58Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-AF-39-ED-07-00-7F-DA-71-B4-3A-2C-F3-C1-2A-76-68-13-8C-EA">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:58.0116799Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B3-70-1C-5C-49-7A-71-F1-B8-32-97-F5-1E-5F-F3-52-E2-62-BA-1C">
+      <ModulePath>C:\GitWlasne\codecovold\CodecovExample\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll</ModulePath>
+      <ModuleTime>2018-01-08T19:11:58.829548Z</ModuleTime>
+      <ModuleName>CodecovExample.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-2D-37-71-85-86-25-78-29-7F-26-79-55-A6-E5-61-80-28-93-5F">
+      <ModulePath>C:\GitWlasne\codecovold\CodecovExample\test\CodecovExample.Tests\bin\Debug\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-10-27T03:34:40Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FC-FE-E5-ED-6A-DC-B6-40-E2-18-8D-5A-DC-FD-FA-75-EF-A8-9E-9C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:58.3436462Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="83-B5-A5-3D-C5-EE-5B-11-96-A7-D4-EF-E5-B8-69-05-D9-8E-82-DC">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:52.2333576Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FC-FF-84-14-2B-83-E2-BE-7E-8F-E2-1A-94-8B-7F-2D-BC-2B-76-B7">
+      <ModulePath>C:\GitWlasne\codecovold\CodecovExample\test\CodecovExample.Tests\bin\Debug\FSharp.Core.dll</ModulePath>
+      <ModuleTime>2017-12-14T19:15:53.9213682Z</ModuleTime>
+      <ModuleName>FSharp.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4F-FC-B7-E4-20-36-3B-44-1F-2F-1C-48-FC-76-CD-AC-9E-00-28-29">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:57.9556487Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="26-B3-E5-81-93-87-43-48-F1-7B-C4-D6-6D-4A-CA-3D-91-16-5D-6B">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:58.4076488Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="26-B3-E5-81-93-87-43-48-F1-7B-C4-D6-6D-4A-CA-3D-91-16-5D-6B">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:58.4076488Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="16-3E-AF-F7-55-73-C0-68-9E-6F-C3-AA-9F-CD-E5-55-F8-4F-2E-A6">
+      <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="66.67" branchCoverage="66.67" maxCyclomaticComplexity="1" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="3" />
+      <ModulePath>C:\GitWlasne\codecovold\CodecovExample\test\CodecovExample.Tests\bin\Debug\CodecovExample.TargetProject.dll</ModulePath>
+      <ModuleTime>2018-01-08T19:11:57.6290714Z</ModuleTime>
+      <ModuleName>CodecovExample.TargetProject</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\GitWlasne\codecovold\CodecovExample\src\CodecovExample.TargetProject\TargetModule.fs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;StartupCode$CodecovExample-TargetProject&gt;.$.NETFramework,Version=v4.6.2.AssemblyAttributes</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="66.67" branchCoverage="66.67" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="3" />
+          <FullName>CodecovExample.TargetProject.Target</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Int32 CodecovExample.TargetProject.Target::AddNumbers(System.Int32,System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="4" sc="56" el="4" ec="90" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="4" sc="56" el="4" ec="90" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Int32 CodecovExample.TargetProject.Target::SubractNumbers(System.Int32,System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="2" ordinal="0" offset="0" sl="5" sc="60" el="5" ec="94" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="2" ordinal="0" offset="0" sl="5" sc="60" el="5" ec="94" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 CodecovExample.TargetProject.Target::DivideNumbers(System.Int32,System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="3" ordinal="0" offset="0" sl="6" sc="59" el="6" ec="93" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="3" ordinal="0" offset="0" sl="6" sc="59" el="6" ec="93" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;StartupCode$CodecovExample-TargetProject&gt;.$TargetModule</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;StartupCode$CodecovExample-TargetProject&gt;.$AssemblyInfo</FullName>
+          <Methods />
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="BF-E5-4F-FE-CF-53-6A-47-B3-9C-83-FA-80-22-8A-DC-19-81-A7-C4">
+      <ModulePath>C:\GitWlasne\codecovold\CodecovExample\test\CodecovExample.Tests\bin\Debug\xunit.assert.dll</ModulePath>
+      <ModuleTime>2017-10-27T03:34:24Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-5F-31-2F-12-92-F2-45-05-D3-BD-CA-13-62-7D-F3-B8-10-E0-93">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-11-17T02:00:51.8373578Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

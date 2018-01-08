@@ -10,5 +10,5 @@ build:
   verbosity: minimal
 
 test_script:
-- OpenCover.Console.exe -register:user -target:"C:\Program Files\dotnet\dotnet.exe" -targetargs:"test /p:DebugType=full --logger:trx;LogFileName=results.trx /p:DebugType=full CodecovExample.Tests.fsproj" -filter:"+[CodecovExample.TargetProject]* -[CodecovExample.Tests]*" -output:MyProject_coverage.xml -oldstyle
-- codecov -f "MyProject_coverage.xml
+- OpenCover.Console.exe -register:user -target:"xunit.console.x86.exe" -targetargs:".\test\CodecovExample.Tests\bin\Debug\CodecovExample.Tests.dll -noshadow" -filter:"+[CodecovExample.TargetProject*]* -[CodecovExample.Tests*]*" -output:".\CodecovExample-FSharp.xml"
+- codecov -f "CodecovExample-FSharp.xml
