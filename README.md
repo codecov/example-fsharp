@@ -164,3 +164,5 @@ If you use [Fake](https://github.com/fsharp/FAKE) (F# Make) for your build autom
 ## Cake
 
 If you use [Cake](http://cakebuild.net/) (C# Make) for your build automation, there is a [Cake.Codecov](http://cakebuild.net/dsl/codecov/) addin available. Cake also has built in support for [OpenCover](http://cakebuild.net/dsl/opencover/).
+
+We are happy to help if you have any questions. Please contact email our Support at [support@codecov.io](mailto:support@codecov.io)
