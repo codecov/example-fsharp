@@ -5,6 +5,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/te04aqtjuv4anakr?svg=true)](https://ci.appveyor.com/project/MNie/codecov-fsharp)
 [![codecov](https://codecov.io/gh/MNie/codecov-fsharp/branch/master/graph/badge.svg)](https://codecov.io/gh/MNie/codecov-fsharp)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fexample-fsharp.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fexample-fsharp?ref=badge_shield)
 
 ## Solution
 
@@ -166,3 +167,7 @@ If you use [Fake](https://github.com/fsharp/FAKE) (F# Make) for your build autom
 If you use [Cake](http://cakebuild.net/) (C# Make) for your build automation, there is a [Cake.Codecov](http://cakebuild.net/dsl/codecov/) addin available. Cake also has built in support for [OpenCover](http://cakebuild.net/dsl/opencover/).
 
 We are happy to help if you have any questions. Please contact email our Support at [support@codecov.io](mailto:support@codecov.io)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fexample-fsharp.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fexample-fsharp?ref=badge_large)
